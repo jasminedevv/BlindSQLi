@@ -1,8 +1,9 @@
 # Blind SQLi Proof of Concept
-This is my solution for a take-home interview problem which asked me to guess an admin password on their site with the following features:
-1. Has a form that runs SQL commands but does not return results
-2. Stores passwords unencrypted
-I tried to make it more generic and removed references to the target. You could probably still guess what web framework it targets though.
+This is my solution for a take-home interview problem which asked me to guess an admin password on their site. I tried to make it more generic and removed references to the target. You could probably still guess what web framework it targets though. 
+
+The target had the following features:
+1. A form that runs SQL commands but does not return results
+2. Unencrypted passwords
 
 ## My solution
 ### get_base_response_time
