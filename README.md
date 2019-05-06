@@ -19,10 +19,10 @@ Injects commands that try different password lengths until it gets a positive re
 Given a password length, tries substrings until it guesses the full password.
 
 ## My Process
-I used mocks and stubs to test the functionality of each function to avoid having to send the site a bajillion requests. I used pytest for this. Since the these tests contain hardcoded info about the target, they are not in this repo.
+I used mocks and stubs to test the functionality of each function to avoid sending the site anything before I know that my code works. I used pytest for this. Since the these tests contain hardcoded info about the target, they are not in this repo.
 
 ## Did it work?
 Yea! The script guessed the password in under a minute. Putting lowercase letters first in the try order would have made it go a lot faster.
 
 ## Did you get the job?
-Stay tuned.
+I did!!
